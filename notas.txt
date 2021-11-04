@@ -1,0 +1,7 @@
+-iniciar el proyecto con:
+    laravel new nombreProyecto --jet
+-crear los modelos con sus respectivos migrations y factories
+    php artisan make:model Category -mf
+    php artisan make:model Course -mf
+    php artisan make:model Post -mf
+-configurar las migrations

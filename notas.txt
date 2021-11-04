@@ -5,3 +5,4 @@
     php artisan make:model Course -mf
     php artisan make:model Post -mf
 -configurar las migrations
+-configurar los factories y los seeders

@@ -23,10 +23,10 @@ class CreateCoursesTable extends Migration
             $table->string('image');
             $table->text('description');
 
-            $table->timestamps();
-
             $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('category_id')->references('id')->on('category');
+            $table->foreign('category_id')->references('id')->on('categories');
+
+            $table->timestamps();
         });
     }
 

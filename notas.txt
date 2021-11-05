@@ -5,7 +5,11 @@
     php artisan make:model Course -mf
     php artisan make:model Post -mf
 -configurar las migrations
+    php artisan migrate:refresh
 -configurar los factories y los seeders
+    php artisan migrate:refresh --seed
 -configurar las vistas (layouts, html). Para hacer funcionar los estilos de Tailwind hay que ejecutar "npm run development"
 -configurar livewire
     php artisan make:livewire CourseList
+-crear controlador PageController
+    php artisan make:controller PageController

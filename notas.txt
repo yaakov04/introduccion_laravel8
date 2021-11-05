@@ -6,3 +6,4 @@
     php artisan make:model Post -mf
 -configurar las migrations
 -configurar los factories y los seeders
+-configurar las vistas (layouts, html)

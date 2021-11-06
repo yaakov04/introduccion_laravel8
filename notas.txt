@@ -13,3 +13,4 @@
     php artisan make:livewire CourseList
 -crear controlador PageController
     php artisan make:controller PageController
+-crear la pagina de cursos en el controlador
